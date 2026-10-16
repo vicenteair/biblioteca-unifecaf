@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital | UniFECAF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- menu de navegação fixo no topo -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>UniFECAF</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#biblioteca">Biblioteca</a>
+                <a href="#livros">Livros</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#contatos">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- conteúdo principal da página -->
+    <main>
+        <!-- banner de boas-vindas -->
+        <section class="hero" id="biblioteca">
+            <div class="container hero-content">
+                <div class="hero-image-placeholder">
+                    <img src="assets/imagens/banner.png" alt="Banner da Biblioteca Digital UniFECAF">
+                </div>
+            </div>
+        </section>
+
+        <!-- secção institucional sobre a biblioteca -->
+        <section class="about section-padding">
+            <div class="container">
+                <h2 class="section-title">Sobre a nossa biblioteca</h2>
+                <div class="about-grid">
+                    <!-- agrupando os parágrafos juntos para manter o alinhamento correto ao lado da imagem -->
+                    <div class="about-text">
+                        <p>A Biblioteca Digital UniFECAF é o centro de recursos de aprendizagem e pesquisa para toda a comunidade acadêmica. Nosso objetivo é proporcionar acesso democrático e simplificado a um acervo diversificado que atende a todos os cursos de graduação e pós-graduação da instituição.</p>
+                        <p>Disponibilizamos milhares de e-books, periódicos científicos, monografias e obras de referência das áreas de Humanas, Exatas, Saúde, Negócios e Tecnologia. Contamos também com infraestrutura completa de consulta presencial e reservas online.</p>
+                    </div>
+                    <div class="about-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Espaço de Estudo e Acervo">
+                    </div>
+                </div>
+
+                <!-- miniaturas com fotos dos espaços físicos -->
+                <div class="about-thumbs">
+                    <div class="thumb-box"><img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Acervo de Livros"></div>
+                    <div class="thumb-box"><img src="https://images.unsplash.com/photo-1565598621680-94ac0c22b148?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Salas de Estudo em Grupo"></div>
+                    <div class="thumb-box"><img src="https://images.unsplash.com/photo-1643199187247-b3b6009bf0bb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Computadores para Pesquisa"></div>
+                    <div class="thumb-box"><img src="https://images.unsplash.com/photo-1612477954469-c6a60de89802?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Área de Leitura Silenciosa"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner intermediário -->
+        <section class="mid-banner">
+            <div class="container">
+                <div class="mid-banner-img">
+                    <img src="assets/imagens/banner-2.png" alt="Entrada do Acervo Digital UniFECAF">
+                </div>
+            </div>
+        </section>
+
+        <!-- grade de livros em destaque -->
+        <section class="books section-padding" id="livros">
+            <div class="container">
+                <h2 class="section-title">Nossos Livros em Destaque</h2>
+                <div class="books-grid">
+                    <!-- card de direito -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/direito.jpeg" alt="Introdução ao Estudo do Direito"></div>
+                        <h3>Introdução ao Estudo do Direito</h3>
+                        <p>Conceitos fundamentais da doutrina jurídica, normas, instituições e estruturas essenciais do ordenamento legal.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                    <!-- card de administração -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/principiosdeadm.jpeg" alt="Capa Administração e Gestão"></div>
+                        <h3>Principios de Administração</h3>
+                        <p>Teoria geral da administração, planejamento estratégico, liderança e gestão de processos corporativos.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                    <!-- card de saúde -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/anatomiaefisiologiahumana.jpeg" alt="Capa Anatomia Humana"></div>
+                        <h3>Anatomia e Fisiologia Humana</h3>
+                        <p>Guia completo e ilustrado sobre a estrutura do corpo humano e sistemas biológicos para a área da saúde.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                    <!-- card de psicologia -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/psicologia.jpeg" alt="Capa Psicologia Geral"></div>
+                        <h3>Psicologia e Comportamento</h3>
+                        <p>Estudo dos processos mentais, teorias do desenvolvimento humano e análise do comportamento social.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                    <!-- card de tecnologia / ads -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/fundamentosdeprogramação.jpeg" alt="Capa Fundamentos de Programação"></div>
+                        <h3>Fundamentos de Programação</h3>
+                        <p>Lógica de programação, estrutura de dados e conceitos iniciais de desenvolvimento de software e algoritmos.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                    <!-- card de educação -->
+                    <div class="book-card">
+                        <div class="book-img"><img src="assets/imagens/didaticaemetodologias.jpeg" alt="Capa Didática e Pedagogia"></div>
+                        <h3>Didática e Metodologias</h3>
+                        <p>Práticas pedagógicas modernas, planejamento de ensino e metodologias ativas de aprendizagem acadêmica.</p>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- unidades da faculdade -->
+        <section class="units section-padding" id="unidades">
+            <div class="container">
+                <h2 class="section-title white-text">As Unidades</h2>
+                
+                <div class="unit-row">
+                    <div class="unit-img"><img src="assets/imagens/campus1.webp" alt="Unidade Taboão da Serra"></div>
+                    <div class="unit-desc">
+                        <h3>Unidade Central</h3>
+                        <p>Possui biblioteca física ampla com acervo de consulta local, empréstimo domiciliar, salas de estudo individual e computadores de uso acadêmico para pesquisas de todos os cursos.</p>
+                    </div>
+                </div>
+
+                <div class="unit-row">
+                    <div class="unit-img"><img src="https://images.unsplash.com/photo-1583373834259-46cc92173cb7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Unidade Campus Norte"></div>
+                    <div class="unit-desc">
+                        <h3>Unidade Campus Norte</h3>
+                        <p>Espaço focado em convivência acadêmica, contendo acervo voltado para ciências da saúde e engenharias, além de bancadas com tomadas e wi-fi de alta velocidade para notebooks.</p>
+                    </div>
+                </div>
+
+                <div class="unit-row">
+                    <div class="unit-img"><img src="https://images.unsplash.com/photo-1627685317111-5133a227c0e4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Unidade Polo Digital"></div>
+                    <div class="unit-desc">
+                        <h3>Polo de Inovação e EAD</h3>
+                        <p>Unidade moderna com laboratórios integrados de informática, apoio a pesquisas científicas e estúdios digitais para transmissão de aulas e suporte a alunos do ensino a distância.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- secção de contactos e suporte -->
+        <section class="contacts section-padding" id="contatos">
+            <div class="container contacts-flex">
+                <div class="contacts-text">
+                    <h2 class="section-title">Contatos e Atendimento</h2>
+                    <p>Tem dúvidas sobre renovação de empréstimos, acesso à biblioteca digital corporativa ou agendamento de salas de estudo? Entre em contato com a equipe de bibliotecários da UniFECAF.</p>
+                    <p><strong>E-mail:</strong> biblioteca@unifecaf.edu.br | <strong>Atendimento:</strong> Segunda a Sexta, das 08h às 22h.</p>
+                </div>
+                <div class="contacts-img">
+                    <img src="https://images.unsplash.com/vector-1742138990141-dffbe0be56c2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Atendimento da Biblioteca">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- rodapé da página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 UniFECAF - Biblioteca Digital Universitária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
